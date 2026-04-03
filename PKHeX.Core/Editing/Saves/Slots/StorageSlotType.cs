@@ -109,4 +109,9 @@ public enum StorageSlotType : byte
     /// Gen4 HeartGold/SoulSilver pedometer accessory upload
     /// </summary>
     Pokéwalker,
+
+    /// <summary>
+    /// Rental Team Slot
+    /// </summary>
+    Rental,
 }
