@@ -2728,6 +2728,7 @@ StorageSlotType.PGL=PGL
 StorageSlotType.Pokéwalker=ポケウォーカー
 StorageSlotType.Resort=レポート
 StorageSlotType.Ride=ライド
+StorageSlotType.Rental=レンタル
 StorageSlotType.Scripted=スクリプト
 StorageSlotType.Shiny=光ひかる
 StorageSlotType.SurpriseTrade=マジカル交換

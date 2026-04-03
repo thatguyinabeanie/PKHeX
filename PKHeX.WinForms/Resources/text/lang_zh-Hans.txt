@@ -2728,6 +2728,7 @@ StorageSlotType.PGL=宝可梦全球连接
 StorageSlotType.Pokéwalker=计步器
 StorageSlotType.Resort=度假胜地
 StorageSlotType.Ride=坐骑
+StorageSlotType.Rental=租借
 StorageSlotType.Scripted=剧情限定
 StorageSlotType.Shiny=异色
 StorageSlotType.SurpriseTrade=惊喜交换

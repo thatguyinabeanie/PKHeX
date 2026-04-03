@@ -2728,6 +2728,7 @@ StorageSlotType.PGL=PGL
 StorageSlotType.Pokéwalker=Pokéwalker
 StorageSlotType.Resort=Poké Loisir
 StorageSlotType.Ride=Monture
+StorageSlotType.Rental=Location
 StorageSlotType.Scripted=Scripté
 StorageSlotType.Shiny=Chromatique
 StorageSlotType.SurpriseTrade=Échange Magique

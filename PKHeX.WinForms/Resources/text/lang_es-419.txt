@@ -2728,6 +2728,7 @@ StorageSlotType.PGL=PGL
 StorageSlotType.Pokéwalker=Pokéwalker
 StorageSlotType.Resort=Resortear
 StorageSlotType.Ride=Montar
+StorageSlotType.Rental=Préstamo
 StorageSlotType.Scripted=Programado
 StorageSlotType.Shiny=Brillante
 StorageSlotType.SurpriseTrade=Intercambiomágico

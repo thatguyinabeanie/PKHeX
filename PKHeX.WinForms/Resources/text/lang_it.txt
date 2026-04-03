@@ -2728,6 +2728,7 @@ StorageSlotType.PGL=PGL
 StorageSlotType.Pokéwalker=Pokéwalker
 StorageSlotType.Resort=Resort
 StorageSlotType.Ride=Passaggio
+StorageSlotType.Rental=Noleggio
 StorageSlotType.Scripted=Scriptato
 StorageSlotType.Shiny=Cromatico
 StorageSlotType.SurpriseTrade=Scambiomagico
