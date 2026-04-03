@@ -242,6 +242,25 @@ public static partial class Extensions
             list.Add(new(surprise.Raw[0x198..], 0) { Type = StorageSlotType.SurpriseTrade }); // my upload
             list.Add(new(surprise.Raw[0x02C..], 1) { Type = StorageSlotType.SurpriseTrade }); // received from others
         }
+
+        if (sav.Blocks.TryGetBlock(SaveBlockAccessor9SV.KRentalTeams, out var rental))
+        {
+            var rentalSet = new RentalTeamSet9(rental.Raw);
+            for (int t = 0; t < RentalTeamSet9.Count; t++)
+            {
+                var team = rentalSet.GetRentalTeam(t);
+                for (int s = 0; s < 6; s++)
+                {
+                    var pk = team.GetSlot(s);
+                    if (pk.Species == 0)
+                        continue;
+                    // Write decrypted party data into a standalone buffer for display.
+                    var buf = new byte[PokeCrypto.SIZE_8PARTY];
+                    pk.WriteDecryptedDataParty(buf);
+                    list.Add(new(buf, (t * 6) + s, true) { Type = StorageSlotType.Rental, HideLegality = true });
+                }
+            }
+        }
         return list;
     }
 
